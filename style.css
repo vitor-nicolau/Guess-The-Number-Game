@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  max-width: 700px;
+  min-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 300;
+  color: #333;
+}
+
+.game-title {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.game-description {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+input[type="text"] {
+  width: 90px;
+  height: 50px;
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 2rem;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  padding: 3px 10px;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  padding: 7px 20px;
+  transition: 0.2s ease-in;
+}
+
+input[type="submit"]:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in;
+}
+
+.lastResult {
+  color: white;
+  padding: 4px;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 20px;
+  font-size: 1.3rem;
+}
+
+button {
+  padding: 3px 10px;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  padding: 7px 20px;
+  transition: 0.2s ease-in;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in;
+}
+
+button:focus {
+  outline: none;
+}
